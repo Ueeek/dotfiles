@@ -11,7 +11,9 @@ autoload -U promptinit; promptinit
 prompt pure
 PURE_PROMPT_SYMBOL=">>>"
 
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 #zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+zplug "b4b4r07/enhancd", use:init.sh
 
 
 #"powerlineの設定" 

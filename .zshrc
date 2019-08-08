@@ -11,7 +11,9 @@ autoload -U promptinit; promptinit
 prompt pure
 PURE_PROMPT_SYMBOL=">>>"
 
+#ZPLUG
 #zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 
 #"powerlineの設定" 
@@ -28,7 +30,8 @@ if ! zplug check --verbose; then
 fi
 
 # コマンドをリンクして、PATH に追加し、プラグインは読み込む
-zplug load --verbose
+#zplug load --verbose
+zplug load
 
 export EDITORP=vim #エディタをvimに設定
 export LANG=ja_JP.UTF-8 #文字コードをUTF-8に設定
@@ -44,22 +47,21 @@ alias mv='mv -i'
 chpwd() { ls -ltrG  }
 
 setopt correct
+VIM=/usr/local/Cellar/neovim/0.3.5/share/nvim
+export VIM
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-export PATH=$PATH:/usr/local/Cellar/i386-elf-binutils/2.30/bin
 eval "$(pyenv init -)"
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
+#for c++
+export PATH=$PATH:/usr/local/bin
 
-if which jenv > /dev/null; then
-  # JENV_ROOTがemptyの場合、'${HOME}/.jenv'がrootと設定される
-  export JENV_ROOT=/usr/local/Cellar/jenv
-  eval "$(jenv init -)"
-fi
-#ここの数字を変えるとversionを帰れる -v 数字
-export JAVA_HOME=$(/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v 10)
-PATH=${JAVA_HOME}/bin:${PATH}
-export TERM='xterm-256color'
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# alias for ssh
+alias athena_mount="sshfs ueki.k@192.168.1.102:/home/ueki.k/ ~/athena/"
+alias athena_unmount="umount -f ~/athena/"
+
+# path to cpp lsp
+export PATH=$PATH:~/cquery/build/system/bin
+export PATH=$PATH:~/cquery/build
+export PATH=$PATH:~/cquery/build/system
 

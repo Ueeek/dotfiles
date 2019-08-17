@@ -1,0 +1,30 @@
+[[plugins]]
+    repo='pdavydov108/vim-lsp-cquery'
+[[plugins]]
+    repo="ryanolsonx/vim-lsp-python"
+[[plugins]]
+    repo ='pdavydov108/vim-lsp-cquery'
+[[plugins]]
+    repo='prabirshrestha/async.vim'
+
+
+[[plugins]]
+    repo='prabirshrestha/vim-lsp'
+    hook_source = '''
+        if executable('pyls')
+            au User lsp_setup call lsp#register_server({
+            \ 'name': 'pyls',
+            \ 'cmd': {server_info->['pyls']},
+            \ 'whitelist': ['python'],
+            \ 'workspace_config': {'pyls': {'plugins': {
+            \   'pycodestyle': {'enabled': v:false},
+            \   'jedi_definition': {'follow_imports': v:true, 'follow_builtin_imports': v:true},}}}
+          \ })
+        endif
+    '''
+
+                                
+[[plugins]]
+    repo= 'prabirshrestha/asyncomplete.vim'
+[[plugins]]
+    repo='prabirshrestha/asyncomplete-lsp.vim'

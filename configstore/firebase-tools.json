@@ -1,0 +1,38 @@
+{
+	"analytics-uuid": "b0d1f382-f860-4890-b528-13b406be9b4f",
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1560319756992,
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110996705311459591725",
+		"email": "uekikoichiro@gmail.com",
+		"email_verified": true,
+		"at_hash": "2eQemfSkrR67V3Ng0QqAhg",
+		"iat": 1560319769,
+		"exp": 1560323369
+	},
+	"tokens": {
+		"expires_at": 1560326316866,
+		"refresh_token": "1/lUI6XvdXekPEu-_Bsik7NrFvFkq76KmxuGIpIKOIQTA",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.GlsmB3ydx2qmGnsn5L-ESoRa42-Q4bBMbTN9hGzZZ2QmV-U953f5if-KygT--VVFvNv7y2KT3fTx4lQ2Ot8QdqqZkjwqckAWC2koMaMwEc8jDs1w8lH-n48cRPTX",
+		"expires_in": 3600,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg0NmRkYWY4OGNjMTkyMzUyMjFjOGVlMGRmYTNiYjQ2YWUyN2JmZmMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwOTk2NzA1MzExNDU5NTkxNzI1IiwiZW1haWwiOiJ1ZWtpa29pY2hpcm9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJYaWNJRmxDd1ZoOFVTamN3X0ZldFFRIiwiaWF0IjoxNTYwMzIyNzE2LCJleHAiOjE1NjAzMjYzMTZ9.Y5X4p3aEUtB-wpzD1OOlizTFWAfaQ4ZiB2bcUQGWFXw3HZOTiAVoEf2imiJj9UzLwG-PIvk0j31l95dVRnV8Cd9HQT27A0LvJXmRWWzFXLRa1qT4P4blpOWu7dKa2SegM_WGNieNty9Z_mahc1GhjWx80hLJX6U-VFiFUyeBMSKtmB5SBSA-euNozj6_dJyoTdYw-5jBTc2Cj-2zokhIOZKkeqfCyfvedlJnZSF20FbxtMnv_4XuCipFTCGbu1grDN4ivfQJyY-weJB8IfbmT1ngVDnwiJ37CESmB8Qyh_pqMMfU2euk04zAPI47Jfu3NZt0kWkaNGzFJN6GWABmQQ"
+	},
+	"activeProjects": {
+		"/Users/ueki/Desktop/react/tutorial": "todoapp-7d118"
+	}
+}

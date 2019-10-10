@@ -44,3 +44,9 @@ hook_add='''
         let g:template_basedir='~/dotfiles'
         let g:template_free_pattern='template'
 '''
+
+#git
+[[plugins]]
+    repo="tpope/vim-fugitive"
+
+

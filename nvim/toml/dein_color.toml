@@ -1,0 +1,18 @@
+[[plugins]]
+    repo="NLKNguyen/papercolor-theme"
+
+
+[[plugins]]
+		repo='raphamorim/lucario'
+[[plugins]]
+  #repo ='altercation/vim-colors-solarized'
+	repo='lifepillar/vim-solarized8'
+
+[[plugins]]
+  repo='rhysd/vim-color-spring-night'
+
+[[plugins]]
+    repo='tjammer/blayu.vim'
+
+[[plugins]]
+  repo='bellma101/vim-snazzy'

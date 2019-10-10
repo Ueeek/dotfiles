@@ -11,7 +11,13 @@ autoload -U promptinit; promptinit
 prompt pure
 PURE_PROMPT_SYMBOL=">>>"
 
+#########################
+#   zplug         #
+#########################
 #zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zsh-users/zsh-autosuggestions", defer:2
+
 
 
 #"powerlineの設定" 
@@ -28,38 +34,70 @@ if ! zplug check --verbose; then
 fi
 
 # コマンドをリンクして、PATH に追加し、プラグインは読み込む
-zplug load --verbose
+#zplug load --verbose
+zplug load
+
+#########################
+#   zstyle         #
+#########################
+#大文字、小文字を区別せず補完する
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+zstyle ':completion:*' list-colors "${LS_COLORS}"
+#何も入力されていないときのTABでTABが挿入されるのを抑制
+zstyle ':completion:*' insert-tab false
+#補完でカラーを使用する
+##autoload colors
+# 名前で色を付けるようにする
+
+
+#########################
+#   set opt        #
+#########################
+autoload colors
+colors
+# cdを使わずにディレクトリを移動できる
+setopt auto_cd
+# "cd -"の段階でTabを押すと、ディレクトリの履歴が見れる
+setopt auto_pushd
+# コマンドの打ち間違いを指摘してくれる
+setopt correct
+# # LS_COLORSを設定しておく
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+zstyle ':completion:*' list-colors "${LS_COLORS}"
+#何も入力されていないときのTABでTABが挿入されるのを抑制
+zstyle ':completion:*' insert-tab false
+
 
 export EDITORP=vim #エディタをvimに設定
 export LANG=ja_JP.UTF-8 #文字コードをUTF-8に設定
 
-#エイリアス
+#########################
+#   エイリアス          #
+#########################
 alias vz='nvim ~/.zshrc'
 alias v='nvim'
 alias vi='nvim'
 alias py="python"
 alias rm='rm -i'
 alias mv='mv -i'
+alias tx="tmux"
+# alias for ssh
+alias athena_mount="sshfs ueki.k@192.168.1.102:/home/ueki.k/ ~/athena/"
+alias athena_unmount="umount -f ~/athena/"
 #cdの後にlsを実行
 chpwd() { ls -ltrG  }
 
-setopt correct
+VIM=/usr/local/Cellar/neovim/0.3.5/share/nvim
+export VIM
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-export PATH=$PATH:/usr/local/Cellar/i386-elf-binutils/2.30/bin
 eval "$(pyenv init -)"
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
-
-if which jenv > /dev/null; then
-  # JENV_ROOTがemptyの場合、'${HOME}/.jenv'がrootと設定される
-  export JENV_ROOT=/usr/local/Cellar/jenv
-  eval "$(jenv init -)"
-fi
-#ここの数字を変えるとversionを帰れる -v 数字
-export JAVA_HOME=$(/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v 10)
-PATH=${JAVA_HOME}/bin:${PATH}
-export TERM='xterm-256color'
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#for c++
+export PATH=$PATH:/usr/local/bin
+# path to cpp lsp
+export PATH=$PATH:~/cquery/build/system/bin
+export PATH=$PATH:~/cquery/build
+export PATH=$PATH:~/cquery/build/system
 

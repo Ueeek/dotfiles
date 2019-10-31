@@ -8,7 +8,7 @@ source $ZPLUG_HOME/init.zsh
 #上のコマンドをオンにするとtreeが勝手に実行されちゃう
 autoload -U promptinit; promptinit
 # プロンプトを変更
-prompt pure
+prompt adam2
 PURE_PROMPT_SYMBOL=">>>"
 
 #########################
@@ -85,6 +85,7 @@ alias tx="tmux"
 # alias for ssh
 alias athena_mount="sshfs ueki.k@192.168.1.102:/home/ueki.k/ ~/athena/"
 alias athena_unmount="umount -f ~/athena/"
+alias athena_ssh="ssh ueki.k@192.168.1.102"
 #cdの後にlsを実行
 chpwd() { ls -ltrG  }
 

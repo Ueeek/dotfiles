@@ -1,10 +1,11 @@
+ set shell=/bin/zsh 
  "dein Scripts-----------------------------
+
 if &compatible
   set nocompatible               " Be iMproved
 endif
 
-" Required:
-
+" add PATH to VIM PATH
 "dein.vimインストール時に指定したディレクトリ
 let s:dein_dir = expand('~/.cache/dein')
 

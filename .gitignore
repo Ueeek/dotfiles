@@ -1,0 +1,9 @@
+/*.sh
+/configsttore
+/.config
+/.template
+.zsh_history
+.zsh-update
+.zshenv
+*.sh
+

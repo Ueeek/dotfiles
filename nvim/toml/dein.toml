@@ -1,0 +1,51 @@
+[[plugins]]
+    repo = 'vim-airline/vim-airline-themes'
+
+
+[[plugins]]
+    repo = 'vim-airline/vim-airline'
+    depends =['vim-airline-themes']
+    hook_add = '''
+        "let g:airline_section_c='%-0.10{getcwd()}' "set section b to show current dir
+        let g:airline_extensions_tabline_enable=1
+    '''
+
+
+[[plugins]]
+    repo='edkolev/tmuxline.vim'
+    hook_add='''
+    let g:tmuxline_preset = {
+        \'a'    : '#H',
+        \'b'    : '#W',
+        \'win'  : '#I #W',
+        \'cwin' : '#I #W',
+        \'x'    :['#[fg=white]#(/usr/local/bin/wifi)#[default]#(/usr/local/bin/battery --tmux)'],
+        \'y'    : ['%Y-%m-%d(%a) %H:%M'],
+        \'z'    : '#H',
+        \'options' : {'status-justify':'left'}}
+        let g:tmuxline_powerline_separators = 0
+    '''
+
+[[plugins]]
+    repo='scrooloose/nerdtree'
+
+[[plugins]]
+    repo = 'Shougo/denite.nvim'
+
+[[plugins]] # toml syntax 
+    repo = 'cespare/vim-toml'
+    on_ft = 'toml'
+
+#templete
+[[plugins]]
+    repo='thinca/vim-template'
+    hook_add='''
+        let g:template_basedir='~/dotfiles'
+        let g:template_free_pattern='template'
+    '''
+
+# git
+[[plugins]]
+    repo="tpope/vim-fugitive"
+[[plugins]]
+    repo="airblade/vim-gitgutter"

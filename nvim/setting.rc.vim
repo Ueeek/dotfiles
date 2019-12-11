@@ -1,6 +1,5 @@
-"setting
-set termguicolors
-set t_Co=256
+"set termguicolors
+"set t_Co=256
 set number
 "編注のファイルが変更したら自動で読み直す
 set autoread
@@ -26,23 +25,25 @@ set softtabstop=4
 set smartindent
 set autoindent
 
-" keymapping
-" 入力モード中に素早くjjと入力した場合はESCとみなす
-inoremap jj <Esc>
-autocmd ColorScheme * highlight Normal ctermbg=none
-autocmd ColorScheme * highlight LineNr ctermfg=none
+" key mapping
+inoremap jj <ESC>
+"autocmd ColorScheme * highlight Normal ctermbg=none
+"autocmd ColorScheme * highlight LineNr ctermfg=none
 nnoremap <silent><Left> :bp<CR>
 nnoremap <silent><Right> :bn<CR>
 nnoremap <silent><Down> :bp<CR>
 nnoremap <silent><Up> :bn<CR>
+"nerdTreeをCtrl eで開けるように
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <silent><C-i> :IndentLinesToggle<CR>1 inoremap 
 "--------------------
 "color scheeme
 "--------------------
-set background=light
-colorscheme PaperColor
+"set background=light
+"colorscheme PaperColor
 "set background=dark
 "colorscheme solarized8_high
-"colorscheme spring-night 
+colorscheme spring-night
 "colorscheme lucario
 "colorscheme blayu
 
@@ -51,11 +52,9 @@ colorscheme PaperColor
 "   (also written in dein.toml,but this file is prior)
 "
 "------------------
-let g:airline_theme = 'papercolor'
-"let g:airline_theme = 'spring_night'
+"let g:airline_theme = 'papercolor'
+let g:airline_theme = 'spring_night'
 
 
-
-"nerdTreeをCtrl eで開けるように
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
-nnoremap <silent><C-i> :IndentLinesToggle<CR>
+"""fold"""
+autocmd FileType python BracelessEnable +fold

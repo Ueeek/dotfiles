@@ -1,5 +1,0 @@
-[[plugins]]
-repo='Yggdroot/indentLine'
-hook_source='''
-    let g:indentLine_setColors=0
-'''

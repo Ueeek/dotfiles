@@ -1,0 +1,10 @@
+[alias]
+    s=status
+    co=checkout
+    b=branch
+    cm=commit -m
+
+[user]
+    name=Ueeek
+    email=ueki.k.ae@m.titech.ac.jp
+

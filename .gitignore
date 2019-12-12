@@ -6,3 +6,4 @@
 .zshenv
 *.sh
 .private.rc
+!setup.sh

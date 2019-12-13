@@ -1,0 +1,20 @@
+#File
+[[plugins]]
+    repo='scrooloose/nerdtree'
+    hook_post_source='''
+        nnoremap <silent><C-e> :NERDTreeToggle<CR>
+    '''
+
+[[plugins]]
+    repo = 'Shougo/denite.nvim'
+
+#Syntax
+[[plugins]] # toml syntax 
+    repo = 'cespare/vim-toml'
+    on_ft = 'toml'
+
+# git
+[[plugins]]
+    repo="tpope/vim-fugitive"
+[[plugins]]
+    repo="airblade/vim-gitgutter"

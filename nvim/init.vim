@@ -28,8 +28,9 @@ if dein#load_state(s:dein_dir)
     call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
 
     call dein#load_toml(s:toml_dir . 'dein.toml')
-    call dein#load_toml(s:toml_dir . 'dein_python.toml')
-    call dein#load_toml(s:toml_dir . 'dein_color.toml')
+    call dein#load_toml(s:toml_dir . 'dein_color.toml',{'lazy':0})
+    call dein#load_toml(s:toml_dir . 'dein_lazy.toml',{'lazy':1})
+    call dein#load_toml(s:toml_dir . 'dein_python.toml',{'lazy':1})
     " Required:
     call dein#end()
     call dein#save_state()

@@ -26,7 +26,6 @@ if dein#load_state(s:dein_dir)
 
     " You can specify revision/branch/tag.
     call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
-
     call dein#load_toml(s:toml_dir . 'dein.toml')
     call dein#load_toml(s:toml_dir . 'dein_color.toml',{'lazy':0})
     call dein#load_toml(s:toml_dir . 'dein_lazy.toml',{'lazy':1})

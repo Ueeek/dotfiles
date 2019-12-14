@@ -1,7 +1,7 @@
 #File
 [[plugins]]
     repo='scrooloose/nerdtree'
-    hook_post_source='''
+    hook_add='''
         nnoremap <silent><C-e> :NERDTreeToggle<CR>
     '''
 

@@ -1,0 +1,52 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block, everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export PATH=$PATH:"/opt/anaconda/lib/python3.7/site-packages"
+export PATH=$PATH:"/home/ueki.k/.local/lib/python3.7/site-packages"
+export PATH=$PATH:"/home/ueki.k/.local/bin"
+#./opt/anaconda3/etc/profile.d/conda.sh
+export XDG_CONFIG_HOME=$HOME/dotfiles
+export PATH=$PATH:"/opt/anaconda/lib/python3.7/site-packages"
+export PATH=$PATH:"/home/ueki.k/.local/lib/python3.7/site-packages"
+export PATH=$PATH:"/home/ueki.k/.local/bin"
+. /opt/anaconda3/etc/profile.d/conda.sh
+
+#alias
+alias v="~/.nvim/nvim.appimage"
+alias py="python"
+alias rm="rm -i"
+alias mv="mv -i"
+alias py="python"
+alias tx="tmux"
+alias coref_server=' java -Djava.io.tmpdir=./tmp -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,parse,sentiment,ner,depparse,coref" -port 9000 -timeout 30000
+'
+chpwd() {ls -ltrG}
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+for file in `find ~/stanford-corenlp-full-2018-10-05 -name "*.jar"`;
+do
+    export CLASSPATH="$CLASSPATH:`realpath $file`";
+done
+ export CORENLP_HOME=~/stanford-corenlp-full-2018-10-05
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+conda activate torch1.2
+

@@ -29,10 +29,6 @@ zstyle ':completion:*' list-colors "${LS_COLORS}"
 zstyle ':completion:*' insert-tab false
 #補完でカラーを使用する
 setopt correct
-export PATH=$PATH:"/opt/anaconda/lib/python3.7/site-packages"
-export PATH=$PATH:"/home/ueki.k/.local/lib/python3.7/site-packages"
-export PATH=$PATH:"/home/ueki.k/.local/bin"
-. /opt/anaconda3/etc/profile.d/conda.sh
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "

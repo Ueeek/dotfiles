@@ -5,4 +5,5 @@
 .zsh-update
 .zshenv
 *.sh
-.private.sh
+.private.rc
+!setup.sh

@@ -34,8 +34,6 @@ nnoremap <silent><Right> :bn<CR>
 nnoremap <silent><Down> :bp<CR>
 nnoremap <silent><Up> :bn<CR>
 "nerdTreeをCtrl eで開けるように
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
-nnoremap <silent><C-i> :IndentLinesToggle<CR>1 inoremap 
 "--------------------
 "color scheeme
 "--------------------
@@ -56,5 +54,3 @@ colorscheme spring-night
 let g:airline_theme = 'spring_night'
 
 
-"""fold"""
-autocmd FileType python BracelessEnable +fold

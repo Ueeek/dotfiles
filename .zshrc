@@ -16,11 +16,10 @@ setopt correct
  prompt adam2
 
 alias v="nvim"
-alias py="python"
+alias py="python3"
 alias rm="rm -I"
 alias rm -rf="rm -Irf"
 alias mv="mv -i"
-alias py="python"
 alias tx="tmux"
 alias ta="tx a -t"
 alias tn="tx new -s"

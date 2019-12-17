@@ -4,7 +4,6 @@ if &compatible
 endif
 
 "#Recho $PATH
-let $PATH="/opt/anaconda3/lib/python3.7/site-packages:".$PATH
 let s:dein_dir= expand('~/.cache/dein')
 let s:dein_repo_dir= s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 let s:toml_dir = expand('~/dotfiles/nvim/toml/')

@@ -29,7 +29,7 @@
 [[plugins]]
     repo='Yggdroot/indentLine'
     on_ft='python'
-    hook_source='''
+    hook_add='''
          let g:indentLine_setColors=0
         nnoremap <silent><C-i> :IndentLinesToggle<CR>1 inoremap 
     '''
@@ -45,7 +45,7 @@
 [[plugins]]
     repo = 'tweekmonster/braceless.vim'
     on_ft = 'python'
-    hook_post_souce='''
+    hook_add='''
         autocmd FileType python BracelessEnable +fold
     '''
 #templete

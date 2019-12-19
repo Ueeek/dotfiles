@@ -3,6 +3,7 @@
     co=checkout
     b=branch
     cm=commit -m
+    po=pull origin
 
 [user]
     name=Ueeek

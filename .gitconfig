@@ -3,8 +3,8 @@
     co=checkout
     b=branch
     cm=commit -m
-    po=pull origin
-    pu=push origin
+    plo=pull origin
+    pso=push origin
 
 [user]
     name=Ueeek

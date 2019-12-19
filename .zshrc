@@ -2,7 +2,7 @@
 source ~/.zplug/init.zsh
 autoload -Uz promptinit
 promptinit
-source ~/.private.rc
+source ~/dotfiles/.private.rc
 export EDITORP=vim
 export LANG=ja_JP.UTF-8
 

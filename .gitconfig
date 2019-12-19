@@ -4,6 +4,7 @@
     b=branch
     cm=commit -m
     po=pull origin
+    pu=push origin
 
 [user]
     name=Ueeek

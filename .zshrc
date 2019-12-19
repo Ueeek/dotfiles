@@ -1,4 +1,4 @@
-source ~/dotfiles/.private.rc
+source ~/.private.rc
  # Set up the prompt
 autoload -Uz promptinit
 promptinit

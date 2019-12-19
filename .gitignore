@@ -7,3 +7,4 @@
 *.sh
 .private.rc
 !setup.sh
+.after_all.rc

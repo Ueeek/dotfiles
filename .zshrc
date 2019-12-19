@@ -1,11 +1,11 @@
-source ~/.private.rc
  # Set up the prompt
+source ~/.zplug/init.zsh
 autoload -Uz promptinit
 promptinit
+source ~/.private.rc
 export EDITORP=vim
 export LANG=ja_JP.UTF-8
 
-source ~/.zplug/init.zsh
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "romkatv/powerlevel10k, as:theme", depth:1
@@ -38,3 +38,5 @@ if ! zplug check --verbose; then
     fi
 fi
 zplug load --verbose
+source ~/dotfiles/.after_all.rc
+source ~/.zplug/init.zsh

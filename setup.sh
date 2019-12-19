@@ -1,4 +1,4 @@
-DOT_FILES=(.zshrc .zsh-history .zshenv .zsh-update .tmux.conf .gitconfig .private.rc)
+DOT_FILES=(.zshrc .zsh-history .zshenv .zsh-update .tmux.conf .gitconfig)
 
 for file in ${DOT_FILES[@]}
 do

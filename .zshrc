@@ -38,6 +38,6 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
-zplug load --verbose
+zplug load
 source ~/dotfiles/.after_all.rc
 source ~/.zplug/init.zsh

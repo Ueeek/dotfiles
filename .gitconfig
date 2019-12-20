@@ -2,6 +2,7 @@
     s=status
     co=checkout
     b=branch
+    A=add --all
     cm=commit -m
     plo=pull origin
     pso=push origin

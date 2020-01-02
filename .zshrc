@@ -15,8 +15,6 @@ setopt correct
 
 alias v="nvim"
 alias py="python3"
-alias rm="rm -I"
-alias rmrf="rm -Irf"
 alias mv="mv -i"
 alias tx="tmux"
 alias ta="tx a -t"

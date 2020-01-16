@@ -48,11 +48,3 @@
     hook_add='''
         autocmd FileType python BracelessEnable +fold
     '''
-#templete
-[[plugins]]
-    repo='thinca/vim-template'
-    on_ft="python"
-    hook_add='''
-        let g:template_basedir='~/dotfiles'
-        let g:template_free_pattern='template'
-    '''

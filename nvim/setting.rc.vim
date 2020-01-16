@@ -39,10 +39,10 @@ nnoremap <silent><Up> :bn<CR>
 "--------------------
 "set background=light
 "colorscheme PaperColor
-"set background=dark
+set background=dark
 "colorscheme solarized8_high
-colorscheme spring-night
-"colorscheme lucario
+"colorscheme spring-night
+colorscheme lucario
 "colorscheme blayu
 
 "------------------

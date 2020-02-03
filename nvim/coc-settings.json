@@ -1,3 +1,12 @@
 {
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "tsserver.enableJavascript": true,
+  "eslint.filetypes": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "typescript.tsx"
+  ]
+
 }

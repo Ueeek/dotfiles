@@ -32,3 +32,36 @@
         let g:template_basedir='~/dotfiles'
         let g:template_free_pattern='template'
     '''
+
+[[plugins]]
+repo = "neoclide/coc.nvim"
+merge = 0
+rev = "release"
+#hook_add = """
+#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
+#"""
+
+[[plugins]]
+repo = "Shougo/defx.nvim"
+depends = ["defx-git"]
+hook_add = """
+source ~/dotfiles/nvim/plugin_rc/defx.rc.vim
+"""
+
+[[plugins]]
+repo ="kristijanhusak/defx-git"
+#hook_add = """
+#source ~/dotfiles/nvim/plugin_rc/defx-git.rc.vim
+#"""
+
+[[plugins]]
+repo = "Shougo/denite.nvim"
+hook_add = """
+source ~/dotfiles/nvim/plugin_rc/denite.rc.vim
+"""
+
+[[plugins]]
+repo = "shougo/deol.nvim"
+hook_add = """
+source ~/dotfiles/nvim/plugin_rc/deol.rc.vim
+"""

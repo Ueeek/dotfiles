@@ -1,12 +1,19 @@
 {
   "python.jediEnabled": false,
   "tsserver.enableJavascript": true,
-  "eslint.filetypes": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "typescript.tsx"
-  ]
-
+  "eslint":{
+      "filetypes": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "typescript.tsx"
+        ],    
+      "autoFixOnSave":true
+  },
+  "clangd": {
+      "command": "clangd",
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+      "filetypes": ["c", "cpp", "objc", "objcpp"]
+    }
 }

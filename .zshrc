@@ -39,3 +39,4 @@ fi
 zplug load
 source ~/dotfiles/.after_all.rc
 source ~/.zplug/init.zsh
+export PATH="/usr/local/opt/llvm/bin:$PATH"

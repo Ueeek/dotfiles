@@ -1,0 +1,39 @@
+{
+	"analytics-uuid": "daa1a08d-8308-42d7-beda-5e4abc953f82",
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1581076739547,
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110996705311459591725",
+		"email": "uekikoichiro@gmail.com",
+		"email_verified": true,
+		"at_hash": "Sm0pDW8c627P_WPg2wMtAQ",
+		"iat": 1580742085,
+		"exp": 1580745685
+	},
+	"tokens": {
+		"expires_at": 1581084013398,
+		"refresh_token": "1//0eP3ZYATuxyVQCgYIARAAGA4SNwF-L9Ir6J9x5mpdlO6SKfqtog3QCjZMa7bIRRi8Cvz8ruLdNgG25lZ95SJva078izrMOHz1we8",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.Ima9B3bA0ClvaS-coZqoogaJyE6apUQcdg6eZykmsfLsDRGE9jGrGH0dmizOricMJWeMeiv74LDz3RpghEAqV7M52mLdQfcGlJm7sfjiDYhLfyuwCOVTAHVhwpoxIsyPDTOpZJeqTE0",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ4ZWZlYTFmNjZlODdiYjM2YzJlYTA5ZDgzNzMzOGJkZDgxMDM1M2IiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwOTk2NzA1MzExNDU5NTkxNzI1IiwiZW1haWwiOiJ1ZWtpa29pY2hpcm9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJZWUFkbTVQR0lRRldhUnpYYlN4NVNnIiwiaWF0IjoxNTgxMDgwNDE0LCJleHAiOjE1ODEwODQwMTR9.TLvZ-Om_OMiZjv6SChDv0grqx1l5pXpFnhGfjOVcMuw4xJhbN-mug519nV6wvQtLvVYE1_kZP85HHUHrU6t1BB-26_Jk_PLEdjB3mi7yB9J5E6WoRno6mlXlrFfAHHSUlzeXEUgkldaeb-Dyhc5EEMW-Auvj3JzbI_Xq8M-qzwn3aAn4ijXxgSILmHEVBMK0GlJiY6ReLC-ftWPIGLsSCcTHjT0XEH6-NJVWxpgFpWyfwfONijgdJXlvCx4gXdvGE9O8dGmkVF3HxGy3rraRrJsJjxGVG6uZ0HtCbwSFJkJqrYskLdREXlLQd5tB9-helo8KkMXS_4KGUFSzKyofqA"
+	},
+	"activeProjects": {
+		"/Users/ueki/Desktop/twitter-clone": "twitterclient-353e4",
+		"/Users/ueki/Desktop/BookReview": "bookreview-f95be"
+	}
+}

@@ -37,9 +37,9 @@
 repo = "neoclide/coc.nvim"
 merge = 0
 rev = "release"
-#hook_add = """
-#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
-#"""
+hook_add = """
+     source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
+"""
 
 #[[plugins]]
 #repo = "Shougo/defx.nvim"

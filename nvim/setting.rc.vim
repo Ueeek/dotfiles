@@ -25,6 +25,9 @@ set softtabstop=4
 set smartindent
 set autoindent
 
+"<Leader>のmapping
+"let mapleader="\<Space>"
+
 " key mapping
 inoremap jj <ESC>
 "autocmd ColorScheme * highlight Normal ctermbg=none

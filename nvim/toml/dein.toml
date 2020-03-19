@@ -41,27 +41,27 @@ rev = "release"
 #source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
 #"""
 
-[[plugins]]
-repo = "Shougo/defx.nvim"
-depends = ["defx-git"]
-hook_add = """
-source ~/dotfiles/nvim/plugin_rc/defx.rc.vim
-"""
-
-[[plugins]]
-repo ="kristijanhusak/defx-git"
+#[[plugins]]
+#repo = "Shougo/defx.nvim"
+#depends = ["defx-git"]
 #hook_add = """
-#source ~/dotfiles/nvim/plugin_rc/defx-git.rc.vim
+#source ~/dotfiles/nvim/plugin_rc/defx.rc.vim
 #"""
-
-[[plugins]]
-repo = "Shougo/denite.nvim"
-hook_add = """
-source ~/dotfiles/nvim/plugin_rc/denite.rc.vim
-"""
-
-[[plugins]]
-repo = "shougo/deol.nvim"
-hook_add = """
-source ~/dotfiles/nvim/plugin_rc/deol.rc.vim
-"""
+#
+#[[plugins]]
+#repo ="kristijanhusak/defx-git"
+##hook_add = """
+##source ~/dotfiles/nvim/plugin_rc/defx-git.rc.vim
+##"""
+#
+#[[plugins]]
+#repo = "Shougo/denite.nvim"
+#hook_add = """
+#source ~/dotfiles/nvim/plugin_rc/denite.rc.vim
+#"""
+#
+#[[plugins]]
+#repo = "shougo/deol.nvim"
+#hook_add = """
+#source ~/dotfiles/nvim/plugin_rc/deol.rc.vim
+#"""

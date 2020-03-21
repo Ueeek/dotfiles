@@ -15,3 +15,12 @@
     repo="tpope/vim-fugitive"
 [[plugins]]
     repo="airblade/vim-gitgutter"
+
+# vim-sneak
+#[[plugins]]
+#    repo='justinmk/vim-sneak'
+#    hook_add='''
+#        let g:sneak#label = 1
+#        map f <Plug>Sneak
+#        map F <Plug>Sneak_S
+#    '''

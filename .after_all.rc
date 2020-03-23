@@ -1,0 +1,26 @@
+# load module
+module load tmux
+module load python/3.6.5
+module load cuda/9.1.85
+module load cudnn/7.3        
+module load intel/16.0.4.258
+
+module list
+
+cd()
+{
+    builtin cd "$@"
+}
+
+cdls ()
+{
+    \cd "$@" && ls
+}
+
+alias cd="cdls"
+
+cd /gs/hs0/tga-nlp-titech/ueki/
+
+if [ -f /etc/zshrc ];then
+    . /etc/zshrc
+fi

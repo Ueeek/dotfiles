@@ -1,0 +1,13 @@
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+export PATH
+export XDG_CONFIG_HOME=$HOME/dotfiles
+
+alias nvim="~/.nvim/nvim.appimage"
+alias qrsh_test_1="qrsh -l q_node=1 -l h_rt=00:10:00 -p -4" 
+alias qrsh_test_4="qrsh -l f_node=1 -l h_rt=00:10:00 -p -4" 
+alias qrsh_1_hour="qrsh -g tga-nlp-titech -l q_node=1 -l h_rt=01:00:00 -p -4"
+alias qrsh_2_hour="qrsh -g tga-nlp-titech -l q_node=1 -l h_rt=02:00:00 -p -4"
+alias qrsh_train_4="qrsh -g tga-nlp-titech -l f_node=1 -l h_rt=10:00:00 -p -4"
+alias qsub_train="qsub -g tga-nlp-titech  -p -4 train_job.sh" 
+alias qsub_translate="qsub -g tga-nlp-titech   -p -4 translate_job.sh" 
+

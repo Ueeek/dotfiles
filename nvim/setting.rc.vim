@@ -40,7 +40,11 @@ nnoremap <silent><Left> :bp<CR>
 nnoremap <silent><Right> :bn<CR>
 nnoremap <silent><Down> :bp<CR>
 nnoremap <silent><Up> :bn<CR>
-"nerdTreeをCtrl eで開けるように
+""" vim のwindowを<Ctrl-w> ,{h,l,j,k}で動かせるように
+nnoremap <silent><C-w><C-k> <C-w>+ 
+nnoremap <silent><C-w><C-j> <C-w>-
+nnoremap <silent><C-w><C-l> <C-w>>
+nnoremap <silent><C-w><C-h> <C-w><
 "--------------------
 "color scheeme
 "--------------------

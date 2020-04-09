@@ -16,6 +16,11 @@
 [[plugins]]
     repo="airblade/vim-gitgutter"
 
+#ctags
+[[plugins]]
+    repo='majutsushi/tagbar'
+
+
 # vim-sneak
 #[[plugins]]
 #    repo='justinmk/vim-sneak'

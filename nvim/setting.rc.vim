@@ -9,6 +9,10 @@ set cursorline
 set showmatch
 set matchtime=1
 
+"ctagsのためにいるらしい。
+set fileformats=unix,dos,mac
+set fileencodings=utf-8,sjis
+
 "clip board
 set clipboard+=unnamedplus
 

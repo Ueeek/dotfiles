@@ -16,3 +16,23 @@
 
 [[plugins]]
     repo='bellma101/vim-snazzy'
+
+[[plugins]]
+    repo="jacoborus/tender"
+
+[[plugins]]
+    repo='connorholyday/vim-snazzy'
+
+[[plugins]]
+    repo='franbach/miramare'
+
+[[plugins]]
+    repo="jdsimcoe/panic.vim"
+[[plugins]]
+    repo="nanotech/jellybeans.vim"
+[[plugins]]
+    repo="sickill/vim-monokai"
+
+[[pluins]]
+    repo="cliuj/vim-dark-meadow"
+

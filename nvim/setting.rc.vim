@@ -50,10 +50,10 @@ nnoremap <silent><C-w><C-h> <C-w><
 "--------------------
 "set background=light
 "colorscheme PaperColor
-set background=dark
+"set background=dark
 "colorscheme solarized8_high
-"colorscheme spring-night
-colorscheme lucario
+colorscheme spring-night
+"colorscheme lucario
 "colorscheme blayu
 
 "------------------

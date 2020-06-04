@@ -8,7 +8,6 @@ export LANG=ja_JP.UTF-8
 
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
-#zplug "romkatv/powerlevel10k, as:theme", depth:1
 setopt auto_cd
 setopt auto_pushd
 setopt correct

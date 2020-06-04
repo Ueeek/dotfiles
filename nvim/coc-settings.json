@@ -10,7 +10,7 @@
           "typescriptreact",
           "typescript.tsx"
     ],    
-  "esling.autoFixOnSave":true,
+  "eslint.autoFixOnSave":true,
   "languageserver": {
       "ccls": {
                 "command": "~/.src/ccls/Release/ccls",
@@ -44,4 +44,3 @@
                 }
       }
   }
-}

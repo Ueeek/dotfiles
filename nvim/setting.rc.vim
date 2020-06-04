@@ -1,4 +1,4 @@
-"set termguicolors
+set termguicolors
 "set t_Co=256
 set number
 "編注のファイルが変更したら自動で読み直す
@@ -15,6 +15,11 @@ set fileencodings=utf-8,sjis
 
 "clip board
 set clipboard+=unnamedplus
+
+"search
+set ignorecase
+set smartcase
+set incsearch
 
 
 "swapを作らない

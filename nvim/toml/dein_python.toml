@@ -1,13 +1,13 @@
-[[plugins]]
-    repo='tell-k/vim-autopep8'
-    on_ft='python'
-    hook_source='''
-        " automatically fixed code on savind
-        let g:autopep8_on_save=1
-        " when fixed code,do not show diff_window
-        let g:autopep8_disable_show_diff=1
-        let g:autopep8_indent_size=4
-    '''
+#[[plugins]]
+#    repo='tell-k/vim-autopep8'
+#    on_ft='python'
+#    hook_source='''
+#        " automatically fixed code on savind
+#        let g:autopep8_on_save=1
+#        " when fixed code,do not show diff_window
+#        let g:autopep8_disable_show_diff=1
+#        let g:autopep8_indent_size=4
+#    '''
 
 
 #[[plugins]]

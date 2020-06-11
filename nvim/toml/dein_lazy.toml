@@ -5,11 +5,11 @@
         nnoremap <silent><C-e> :NERDTreeToggle<CR>
     '''
 
-# git
-[[plugins]]
-    repo="tpope/vim-fugitive"
-[[plugins]]
-    repo="airblade/vim-gitgutter"
+## git
+#[[plugins]]
+#    repo="tpope/vim-fugitive"
+#[[plugins]]
+#    repo="airblade/vim-gitgutter"
 
 #ctags
 [[plugins]]

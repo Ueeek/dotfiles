@@ -1,10 +1,12 @@
 /*.sh
-/configsttore
-/.config
+configsttore
+.config
 .zsh_history
 .zsh-update
 .zshenv
 *.sh
 .private.rc
-!setup.sh
 .after_all.rc
+!setup.sh
+.tern-project
+.gitconfig

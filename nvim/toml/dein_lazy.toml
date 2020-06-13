@@ -13,4 +13,7 @@
     '''
 
 [[plugins]]
-    repo='gko/vim-coloresque'
+    repo='lilydjwg/colorizer'
+    hook_add='''
+        g:colorizer_maxlines=1000
+    '''

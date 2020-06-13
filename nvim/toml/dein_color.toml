@@ -36,3 +36,5 @@
 [[pluins]]
     repo="cliuj/vim-dark-meadow"
 
+[[plugins]]
+    repo='dikiaap/minimalist'

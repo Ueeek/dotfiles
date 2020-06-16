@@ -66,3 +66,4 @@ colorscheme minimalist
 "let g:airline_theme = 'spring_night'
 let g:airline_theme='minimalist'
 
+set rtp+=~/vimdev

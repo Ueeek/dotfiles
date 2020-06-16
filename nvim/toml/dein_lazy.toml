@@ -12,8 +12,3 @@
         nnoremap <silent><C-t> :TagbarToggle<CR>
     '''
 
-[[plugins]]
-    repo='lilydjwg/colorizer'
-    hook_add='''
-        g:colorizer_maxlines=1000
-    '''

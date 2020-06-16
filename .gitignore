@@ -10,3 +10,4 @@ configsttore
 !setup.sh
 .tern-project
 .gitconfig
+coc

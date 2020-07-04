@@ -13,7 +13,7 @@
   "eslint.autoFixOnSave": true,
   "languageserver": {
       "ccls": {
-                "command": "~/.src/ccls/Release/ccls",
+            "command":"ccls",
                 "filetypes": [
                     "c",
                     "cpp",
@@ -31,16 +31,16 @@
                     "cache": {
                         "directory": "/tmp/ccls"
                     },
-                    "clang": {
+                    "clang":{
                         "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0",
-                            "extraArgs": [
+                        "extraArgs": [
                                 "-isystem",
                                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
                                 "-I",
                                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
                             ]
-                        }
                     }
                 }
       }
   }
+}

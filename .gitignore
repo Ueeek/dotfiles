@@ -11,3 +11,5 @@ configsttore
 .tern-project
 .gitconfig
 coc
+htop
+matplotlib

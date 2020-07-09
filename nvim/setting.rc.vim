@@ -67,3 +67,7 @@ colorscheme minimalist
 let g:airline_theme='minimalist'
 
 set rtp+=~/vimdev
+
+"tsxがfiletype=typescriptreactになるからtypescriptにする
+autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
+autocmd bufnewfile,bufread *.jsx set filetype=javascript.jsx

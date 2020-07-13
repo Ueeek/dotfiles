@@ -12,6 +12,7 @@ zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 setopt auto_cd
 setopt auto_pushd
 setopt correct
+setopt sharehistory
 
 alias v="nvim"
 alias py="python3"
@@ -44,11 +45,12 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
-source ~/dotfiles/.after_all.rc
 #source ~/.zplug/init.zsh
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zplug load
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+# <<< conda initialize <<<
+
+source ~/dotfiles/.after_all.rc
 export PATH="/usr/local/opt/llvm/bin:$PATH"

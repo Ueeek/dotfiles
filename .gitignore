@@ -1,5 +1,5 @@
 /*.sh
-configsttore
+configstore
 .config
 .zsh_history
 .zsh-update
@@ -11,4 +11,6 @@ configsttore
 .tern-project
 .gitconfig
 coc
+htop
+matplotlib
 template

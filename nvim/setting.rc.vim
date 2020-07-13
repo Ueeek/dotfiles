@@ -69,5 +69,8 @@ let g:airline_theme='minimalist'
 set rtp+=~/vimdev
 
 "tsxがfiletype=typescriptreactになるからtypescriptにする
+autocmd bufnewfile,bufread *.tsx setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd bufnewfile,bufread *.jsx setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
 autocmd bufnewfile,bufread *.jsx set filetype=javascript.jsx
+

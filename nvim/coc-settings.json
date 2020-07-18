@@ -8,7 +8,8 @@
           "javascriptreact",
           "typescript",
           "typescriptreact",
-          "typescript.tsx"
+          "typescript.tsx",
+          "vue"
     ],    
   "eslint.autoFixOnSave": true,
   "languageserver": {

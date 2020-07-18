@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": "8IjQrh-PC",
+      "path": "/Users/ueki/Desktop/dev/VoyageStudy/frontend-study/Section3",
+      "favorite": 0,
+      "type": "vue",
+      "name": "test",
+      "openDate": 1594980932953,
+      "widgets": [
+        {
+          "id": "aT2Wwm0Oxc",
+          "definitionId": "org.vue.widgets.kill-port",
+          "x": 3,
+          "y": 0,
+          "width": 2,
+          "height": 1,
+          "configured": true,
+          "config": null
+        }
+      ]
+    }
+  ],
+  "foldersFavorite": [],
+  "tasks": [],
+  "config": {
+    "lastOpenProject": "8IjQrh-PC"
+  }
+}

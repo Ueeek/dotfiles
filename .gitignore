@@ -8,7 +8,6 @@ configstore
 .env_depend_setting.rc
 .env_depend_paths.rc
 .tern-project
-.gitconfig
 coc
 htop
 matplotlib

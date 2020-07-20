@@ -1,23 +1,3 @@
-#[[plugins]]
-#    repo='tell-k/vim-autopep8'
-#    on_ft='python'
-#    hook_source='''
-#        " automatically fixed code on savind
-#        let g:autopep8_on_save=1
-#        " when fixed code,do not show diff_window
-#        let g:autopep8_disable_show_diff=1
-#        let g:autopep8_indent_size=4
-#    '''
-
-
-#[[plugins]]
-#    repo='kevinw/pyflakes-vim'
-#    on_ft='python'
-#    hook_source='''
-#        let g:pyflakes_use_quickfix=0
-#        let g:pyflakes_prefer_python_version=3
-#    '''
-
 [[plugins]]
     repo='Yggdroot/indentLine'
     on_ft='python'

@@ -1,6 +1,7 @@
  # Set up the prompt
 source ~/.zplug/init.zsh
-source ~/dotfiles/.private.rc
+source ~/dotfiles/.env_depend_paths.rc
+
 export EDITORP=vim
 export LANG=ja_JP.UTF-8
 
@@ -37,7 +38,6 @@ zstyle ':completion:*' list-colors "${LS_COLORS}"
 #何も入力されていないときのTABでTABが挿入されるのを抑制
 zstyle ':completion:*' insert-tab false
 #補完でカラーを使用する
-setopt correct
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -46,11 +46,7 @@ if ! zplug check --verbose; then
     fi
 fi
 #source ~/.zplug/init.zsh
-export PATH="/usr/local/opt/llvm/bin:$PATH"
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zplug load
-# <<< conda initialize <<<
 
-source ~/dotfiles/.after_all.rc
-export PATH="/usr/local/opt/llvm/bin:$PATH"
+source ~/dotfiles/.env_depend_setting.rc

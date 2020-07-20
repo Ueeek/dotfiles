@@ -24,7 +24,7 @@
         \'options' : {'status-justify':'left'}}
         let g:tmuxline_powerline_separators = 0
     '''
-#templete
+
 [[plugins]]
     repo='thinca/vim-template'
     hook_add='''

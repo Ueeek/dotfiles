@@ -5,12 +5,12 @@ configstore
 .zsh-update
 .zshenv
 *.sh
-.private.rc
-.after_all.rc
-!setup.sh
+.env_depend_setting.rc
+.env_depend_paths.rc
 .tern-project
 .gitconfig
 coc
 htop
 matplotlib
 template
+!setup.sh

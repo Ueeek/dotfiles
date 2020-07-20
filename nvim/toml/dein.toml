@@ -1,7 +1,6 @@
 [[plugins]]
     repo = 'vim-airline/vim-airline-themes'
 
-
 [[plugins]]
     repo = 'vim-airline/vim-airline'
     depends =['vim-airline-themes']
@@ -25,3 +24,28 @@
         \'options' : {'status-justify':'left'}}
         let g:tmuxline_powerline_separators = 0
     '''
+
+[[plugins]]
+    repo='thinca/vim-template'
+    hook_add='''
+        let g:template_basedir='~/dotfiles'
+        let g:template_free_pattern='template'
+    '''
+
+[[plugins]]
+repo = "neoclide/coc.nvim"
+merge = 0
+rev = "release"
+hook_add = """
+    nmap <Leader>rn <Plug>(coc-rename)
+    nmap <Leader>hv :<C-u>call CocAction('doHover')<cr>
+    nmap <Leader>df <Plug>(coc-definition)
+    command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+"""
+#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
+
+[[plugins]]
+    repo="lilydjwg/colorizer"
+[[plugins]]
+    repo="relastle/vim-colorrange"

@@ -5,16 +5,10 @@
         nnoremap <silent><C-e> :NERDTreeToggle<CR>
     '''
 
+#ctags
 [[plugins]]
-    repo = 'Shougo/denite.nvim'
+    repo='majutsushi/tagbar'
+    hook_add='''
+        nnoremap <silent><C-t> :TagbarToggle<CR>
+    '''
 
-#Syntax
-[[plugins]] # toml syntax 
-    repo = 'cespare/vim-toml'
-    on_ft = 'toml'
-
-# git
-[[plugins]]
-    repo="tpope/vim-fugitive"
-[[plugins]]
-    repo="airblade/vim-gitgutter"

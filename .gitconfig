@@ -7,7 +7,7 @@
     plo=pull origin
     pso=push origin
 
-[user]
-    name=Ueeek
-    email=ueki.k.ae@m.titech.ac.jp
 
+[user]
+    name="Ueeek"
+    mail="ueki.k.ae@m.titech.ac.jp"

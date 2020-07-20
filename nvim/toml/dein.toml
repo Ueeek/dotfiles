@@ -37,8 +37,13 @@ repo = "neoclide/coc.nvim"
 merge = 0
 rev = "release"
 hook_add = """
-     source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
+    nmap <Leader>rn <Plug>(coc-rename)
+    nmap <Leader>hv :<C-u>call CocAction('doHover')<cr>
+    nmap <Leader>df <Plug>(coc-definition)
+    command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 """
+#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
 
 [[plugins]]
     repo="lilydjwg/colorizer"

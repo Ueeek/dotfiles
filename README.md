@@ -1,9 +1,9 @@
 # dotfiles
 
-## content
-* .zshrc
-* .tmux.conf
-* nvim/init.vim
+## content ( setting files for
+* zsh
+* tmux
+* nvim
 
 ## setup
 * run setup.sh to make symbolic to your $HOME

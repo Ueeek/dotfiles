@@ -13,6 +13,8 @@ set matchtime=1
 set fileformats=unix,dos,mac
 set fileencodings=utf-8,sjis
 
+set hidden
+
 "clip board
 set clipboard+=unnamedplus
 

@@ -12,5 +12,3 @@
         nnoremap <silent><C-t> :TagbarToggle<CR>
     '''
 
-[[plugins]]
-    repo='malithsen/trello-vim'

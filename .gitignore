@@ -5,8 +5,8 @@ configstore
 .zsh-update
 .zshenv
 *.sh
-.env_depend_setting.rc
-.env_depend_paths.rc
+zsh/.env_depend_setting.rc
+zsh/.env_depend_paths.rc
 .tern-project
 coc
 htop

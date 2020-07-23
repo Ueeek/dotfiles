@@ -50,3 +50,4 @@ fi
 zplug load
 
 source ~/dotfiles/.env_depend_setting.rc
+bindkey -v

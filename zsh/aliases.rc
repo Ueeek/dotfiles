@@ -7,10 +7,15 @@ alias tn="tx new -s"
 alias tls="tx ls"
 alias tkil="tx kill-session -t"
 
+alias vf=vim-fzf-find
+alias cdd="fzf-cdr"
+
 vim-fzf-find() {
     local FILE=$(find ./ -path '*/\.*' -name .git -prune -o -type f -print 2> /dev/null | fzf +m)
     if [ -n "$FILE" ]; then
         v $FILE
     fi
 }
-alias vf=vim-fzf-find
+
+
+

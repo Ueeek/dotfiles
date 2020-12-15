@@ -40,6 +40,8 @@ hook_add = """
     nmap <Leader>rn <Plug>(coc-rename)
     nmap <Leader>hv :<C-u>call CocAction('doHover')<cr>
     nmap <Leader>df <Plug>(coc-definition)
+    nmap <Leader>rf <Plug>(coc-references)
+    nmap <Leader>ff <Plug>(coc-format)
     command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 """
@@ -49,3 +51,4 @@ hook_add = """
     repo="lilydjwg/colorizer"
 [[plugins]]
     repo="relastle/vim-colorrange"
+

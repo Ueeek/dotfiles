@@ -1,0 +1,26 @@
+#filer
+[[plugins]]
+    repo='lambdalisue/fern.vim'
+
+#parentis completion
+[[plugins]]
+    repo="Raimondi/delimitMate"
+
+#fzf
+[[plugins]]
+    repo='junegunn/fzf'
+    build='./install --all'
+
+[[plugins]]
+    repo='junegunn/fzf.vim'
+    depends="fzf"
+
+
+[[plugins]]
+    repo='markonm/traces.vim'
+
+[[plugins]]
+    repo="tpope/vim-fugitive"
+
+[[plugins]]
+    repo='junegunn/goyo.vim'

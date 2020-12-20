@@ -55,10 +55,10 @@ nnoremap <silent><C-w><C-h> <C-w><
 "set background=dark
 "colorscheme solarized8_high
 "colorscheme spring-night
-"colorscheme lucario
+colorscheme lucario
 "colorscheme blayu
 "colorscheme miramare
-colorscheme minimalist
+"colorscheme minimalist
 "------------------
 "   airline theme
 "   (also written in dein.toml,but this file is prior)
@@ -66,7 +66,8 @@ colorscheme minimalist
 "------------------
 "let g:airline_theme = 'papercolor'
 "let g:airline_theme = 'spring_night'
-let g:airline_theme='minimalist'
+"let g:airline_theme='minimalist'
+let g:airline_theme="solarized"
 
 set rtp+=~/vimdev
 

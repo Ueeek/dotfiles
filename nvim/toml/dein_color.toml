@@ -14,8 +14,6 @@
 [[plugins]]
     repo='tjammer/blayu.vim'
 
-[[plugins]]
-    repo='bellma101/vim-snazzy'
 
 [[plugins]]
     repo="jacoborus/tender"

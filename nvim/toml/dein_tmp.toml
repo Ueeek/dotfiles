@@ -1,0 +1,57 @@
+#filer
+[[plugins]]
+    repo='lambdalisue/fern.vim'
+
+#parentis completion
+[[plugins]]
+    repo="Raimondi/delimitMate"
+
+#fzf
+[[plugins]]
+    repo='junegunn/fzf'
+    build='./install --all'
+
+[[plugins]]
+    repo='junegunn/fzf.vim'
+    depends="fzf"
+
+
+[[plugins]]
+    repo='markonm/traces.vim'
+
+[[plugins]]
+    repo="tpope/vim-fugitive"
+
+#コード以外を隠す。集中モード
+[[plugins]]
+    repo='junegunn/goyo.vim'
+#git の変更箇所を左のbarに+,-で表示する
+[[plugins]]
+    repo="airblade/vim-gitgutter"
+
+# 移動が楽になる fの2-char version
+[[plugins]]
+    repo="justinmk/vim-sneak"
+    hook_add='''
+        map f <Plug>Sneak_s
+        map F <Plug>Sneak_S
+    '''
+# Browser を開く
+[[plugins]]
+    repo="tyru/open-browser.vim"
+
+#filer
+[[plugins]]
+    repo="Shougo/defx.nvim"
+    hook_add='''
+     nnoremap <silent><C-e> :Defx<CR>
+     source $HOME/dotfiles/nvim/defx.rc.vim
+    '''
+[[plugins]]
+    repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+    repo = 'kristijanhusak/defx-icons'
+
+[[plugins]]
+    repo = 'kristijanhusak/defx-git'

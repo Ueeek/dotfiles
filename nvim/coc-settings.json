@@ -13,8 +13,13 @@
     ],    
   "eslint.autoFixOnSave": true,
   "languageserver": {
+       "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+        },
       "ccls": {
-            "command":"ccls",
+            "command":"$HOME/.src/ccls/Release/ccls",
                 "filetypes": [
                     "c",
                     "cpp",

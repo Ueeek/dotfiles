@@ -1,9 +1,17 @@
 #File
 [[plugins]]
     repo='scrooloose/nerdtree'
+    #hook_add='''
+        #nnoremap <silent><C-e> :NERDTreeToggle<CR>
+        #nnoremap <silent><C-b> :Bookmark<CR>
+    #    nnoremap <silent><C-e> :NERDTreeToggle<CR>
+    #'''
+
+
+[[plugins]]
+    repo='antoinemadec/FixCursorHold.nvim'
     hook_add='''
-        nnoremap <silent><C-e> :NERDTreeToggle<CR>
-        nnoremap <silent><C-b> :Bookmark<CR>
+        let g:cursorhold_updatetime = 100
     '''
 
 #ctags
@@ -13,4 +21,3 @@
         nnoremap <silent><C-t> :TagbarToggle<CR>
         let g:tagbar_ctags_bin="~/.src/ctags/bin/ctags"
     '''
-

@@ -42,13 +42,12 @@ hook_add = """
     nmap <Leader>df <Plug>(coc-definition)
     nmap <Leader>ff <Plug>(coc-format)
     nmap <Leader>rf <Plug>(coc-references)
-
     command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 """
-#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
 
 [[plugins]]
     repo="lilydjwg/colorizer"
 [[plugins]]
     repo="relastle/vim-colorrange"
+

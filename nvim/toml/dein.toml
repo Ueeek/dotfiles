@@ -45,7 +45,6 @@ hook_add = """
     command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 """
-#source ~/dotfiles/nvim/plugin_rc/coc.rc.vim
 
 [[plugins]]
     repo="lilydjwg/colorizer"

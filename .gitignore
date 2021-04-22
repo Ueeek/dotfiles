@@ -13,3 +13,5 @@ htop
 matplotlib
 template
 !setup.sh
+./node_modules
+./nvm

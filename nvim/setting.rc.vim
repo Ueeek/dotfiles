@@ -55,7 +55,8 @@ nnoremap <silent><C-w><C-h> <C-w><
 set background=dark
 "colorscheme solarized8_high
 "colorscheme spring-night
-colorscheme lucario
+"colorscheme lucario
+colorscheme gruvbox
 "colorscheme blayu
 "colorscheme miramare
 "colorscheme minimalist
@@ -68,7 +69,8 @@ colorscheme lucario
 "let g:airline_theme = 'spring_night'
 "let g:airline_theme='minimalist'
 "let g:airline_theme="solarized"
-let g:airline_theme = 'spring_night'
+"let g:airline_theme = 'spring_night'
+let g:airline_theme="gruvbox"
 "let g:airline_theme='minimalist'
 "let g:airline_theme="solarized"
 

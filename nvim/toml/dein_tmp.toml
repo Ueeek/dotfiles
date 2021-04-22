@@ -1,10 +1,10 @@
-#filer
-[[plugins]]
-    repo='lambdalisue/fern.vim'
-
-#parentis completion
-[[plugins]]
-    repo="Raimondi/delimitMate"
+##filer
+#[[plugins]]
+#    repo='lambdalisue/fern.vim'
+#
+##parentis completion
+#[[plugins]]
+#    repo="Raimondi/delimitMate"
 
 #fzf
 [[plugins]]

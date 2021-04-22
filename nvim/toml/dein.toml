@@ -51,3 +51,5 @@ hook_add = """
 [[plugins]]
     repo="relastle/vim-colorrange"
 
+[[plugins]]
+    repo="morhetz/gruvbox"

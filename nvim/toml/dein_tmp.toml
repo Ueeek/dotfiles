@@ -1,10 +1,10 @@
 #filer
-[[plugins]]
-    repo='lambdalisue/fern.vim'
+#[[plugins]]
+#    repo='lambdalisue/fern.vim'
 
-#parentis completion
-[[plugins]]
-    repo="Raimondi/delimitMate"
+##parentis completion
+#[[plugins]]
+#    repo="Raimondi/delimitMate"
 
 #fzf
 [[plugins]]
@@ -23,8 +23,8 @@
     repo="tpope/vim-fugitive"
 
 #コード以外を隠す。集中モード
-[[plugins]]
-    repo='junegunn/goyo.vim'
+#[[plugins]]
+#    repo='junegunn/goyo.vim'
 #git の変更箇所を左のbarに+,-で表示する
 [[plugins]]
     repo="airblade/vim-gitgutter"
@@ -37,8 +37,8 @@
         map F <Plug>Sneak_S
     '''
 # Browser を開く
-[[plugins]]
-    repo="tyru/open-browser.vim"
+#[[plugins]]
+#    repo="tyru/open-browser.vim"
 
 #filer
 [[plugins]]

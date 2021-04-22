@@ -38,3 +38,10 @@
 
 [[plugins]]
     repo='dikiaap/minimalist'
+
+[[plugins]]
+    repo="morhetz/gruvbox"
+[[plugins]]
+    repo="cocopon/iceberg.vim"
+[[plugins]]
+    repo="reedes/vim-colors-pencil"
